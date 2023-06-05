@@ -1,0 +1,64 @@
+#main-doc {
+    margin-left: 30%;
+  }
+  
+  .main-section {
+  
+  }
+  
+  #navbar header {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  #navbar {
+    padding: 0;
+    min-width: 25%;
+    background-color: #f1f1f1;
+    top : 0px;
+    left: 0px;
+    height: 100%;
+    overflow: auto;
+    position: fixed;
+  }
+  
+  #navbar {
+    overflow-y: hidden;
+    border-right: 2px solid;
+  }
+  
+  #navbar ul{
+    list-style-type: none;
+    padding: 0;
+    height: 88%;
+    overflow-y: auto;
+  }
+  
+  #navbar li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 100px) {p {font-size: 10px}}
+  
+  .nav-link:hover {
+    background-color: #cfd8dc;
+  }
+  
+  .nav-link {
+    border-top: 1px solid;
+  }
+  
+  code {
+    display: block;
+    background-color: #eceff1;
+    padding: 15px;
+    margin: 10px;
+    width: auto;
+    position: relative;
+    line-height: 2;
+    text-align: left;
+    white-space: pre-line;
+  }
